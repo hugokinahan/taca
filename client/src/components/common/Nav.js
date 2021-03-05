@@ -1,20 +1,33 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Nav() {
 
 
   return (
-    <nav className='navbar'>
-      <ul className='navbar-items'>
-        <li>Home</li>
-        <li>Together For Templepatrick</li>
-        <li>People</li>
-        <li>News</li>
-        <li>Documents</li>
-        <li>Photos</li>
-        <li>Contact Us</li>
-        <li>Friendship Circle</li>
-        <li>Admin Login</li>
+    <nav className="navbar">
+      <ul className="navbar-items">
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/people">
+          <li>People</li>
+        </Link>
+        <Link to="/news">
+          <li>News</li>
+        </Link>
+        <Link to="/history">
+          <li>Village History</li>
+        </Link>
+        <Link to="/documents">
+          <li>Documents</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact Us</li>
+        </Link>
+        <Link to="/login">
+          <li>Admin Login</li>
+        </Link>
       </ul>
     </nav>
   )

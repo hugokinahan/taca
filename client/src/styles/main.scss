@@ -1,5 +1,5 @@
-$sig-orange: #ffa02f;
-$sig-red: #c0351a;
+$sig-green: #198e3c;
+$sig-red: #f90b0d;
 
 * {
   box-sizing: border-box;
@@ -22,8 +22,8 @@ body {
 }
 
 .navbar {
-  background-color: $sig-orange;
-  height: 10%;
+  background-color: $sig-red;
+  height: 7%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -35,9 +35,18 @@ body {
   justify-content: space-evenly;
   list-style: none;
   color: white;
+  margin-top: 5px;
   li {
     padding: 10px;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+li:hover {
+  color: darkred;
 }
 
 .logo-title {
@@ -67,7 +76,7 @@ body {
     margin: 0 auto;
   }
   h4 {
-    background-color: $sig-red;
+    background-color: $sig-green;
     padding: 5px;
     color: white;
     font-size: 16px;
@@ -88,13 +97,12 @@ body {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  color: $sig-orange;
   letter-spacing: 3px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: $sig-orange;
+  background-color: $sig-red;
   color: white;
   text-align: center;
 }
