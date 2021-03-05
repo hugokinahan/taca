@@ -2,13 +2,30 @@ import React from 'react'
 import Footer from './Footer'
 import Nav from './Nav'
 
+import bigLunch from '../images/big-lunch.jpg'
+
 function Contact() {
 
   return (
     <section>
       <Nav />
-      <div className='homepage-container'>
-        <h1>Contact</h1>
+      <div className="homepage-container">
+        <div className='home-info-container'>
+          <div className="welcome-card">
+            <h4>Welcome!</h4>
+            <img alt="big-lunch" src={bigLunch} />
+            <p>
+          Templepatrick&apos;s Village Celebration sponsored by Antrim and
+          Newtownabbey Borough Council and the Enkalon Fund!
+            </p>
+            <h4>Dates To Note</h4>
+            <h6>Next Meeting</h6>
+            <p>Zoom call 06/04/21</p>
+          </div>
+          <div className="homepage-info">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
       </div>
       <Footer />
     </section>

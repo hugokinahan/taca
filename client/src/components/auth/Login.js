@@ -21,7 +21,7 @@ function Login() {
     try {
       const { data } = await loginUser(formdata)
       setToken(data.token)
-      history.push('/events') //page to go to after logging in
+      history.push('/') //page to go to after logging in
     } catch (err) {
       setError(true)
     }
@@ -32,42 +32,44 @@ function Login() {
   }
 
   return (
-    <main>
+    <section>
       <Nav />
-      <section className="homepage-container">
-        <form className="login-form" onSubmit={handleSubmit}>
-          <div className="block-form">
-            <h1>Login here</h1>
-            <label className="block-form">Email:</label>
-            <input
-              className="block-form"
-              placeholder="Email"
-              onChange={handleChange}
-              name="email"
-              value={formdata.email}
-              onFocus={handleFocus}
-            />
-          </div>
-          <div className="field">
-            <label className="block-form">Password:</label>
-            <input
-              type="password"
-              className="block-form"
-              placeholder="Password"
-              onChange={handleChange}
-              name="password"
-              value={formdata.password}
-              onFocus={handleFocus}
-            />
-            {error && <p className="error-in-form">Sorry, your username or password are incorrect</p>}
-          </div>
-          <div className="block-form">
-            <button type="submit" className="block-form form-submit-button">Log In</button>
-          </div>
-        </form>
+      <section className="login-container">
+        <div className='login'>
+          <form className="login-form" onSubmit={handleSubmit}>
+            <div className="block-form">
+              <h1>Login here</h1>
+              <label className="block-form">Email:</label>
+              <input
+                className="block-form"
+                placeholder="Email"
+                onChange={handleChange}
+                name="email"
+                value={formdata.email}
+                onFocus={handleFocus}
+              />
+            </div>
+            <div className="field">
+              <label className="block-form">Password:</label>
+              <input
+                type="password"
+                className="block-form"
+                placeholder="Password"
+                onChange={handleChange}
+                name="password"
+                value={formdata.password}
+                onFocus={handleFocus}
+              />
+              {error && <p className="error-in-form">Sorry, your username or password are incorrect</p>}
+            </div>
+            <div className="block-form">
+              <button type="submit" className="block-form form-submit-button">Log In</button>
+            </div>
+          </form>
+        </div>
       </section>
       <Footer />
-    </main>
+    </section>
   )
 }
 
