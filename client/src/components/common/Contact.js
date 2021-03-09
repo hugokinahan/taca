@@ -1,4 +1,5 @@
 import React from 'react'
+// import { FacebookProvider, Page } from 'react-facebook'
 import Footer from './Footer'
 import Nav from './Nav'
 
@@ -12,7 +13,7 @@ function Contact() {
       <div className="homepage-container">
         <div className='home-info-container'>
           <div className="welcome-card">
-            <h4>Welcome!</h4>
+            <h4>What&apos;s new?</h4>
             <img alt="big-lunch" src={bigLunch} />
             <p>
           Templepatrick&apos;s Village Celebration sponsored by Antrim and
@@ -20,10 +21,13 @@ function Contact() {
             </p>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
-            <p>Zoom call 06/04/21</p>
+            <p>Via Zoom - contact us for dates.</p>
           </div>
           <div className="homepage-info">
             <h1>Contact Us</h1>
+            {/* <FacebookProvider appId="123456789">
+              <Page href="https://www.facebook.com/TACATEMPLEPATRICK" tabs="timeline" />
+            </FacebookProvider> */}
           </div>
         </div>
       </div>

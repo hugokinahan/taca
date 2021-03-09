@@ -11,14 +11,15 @@ function Home() {
   return (
     <section>
       <Nav />
-      <div className="homepage-container">
+      <div className="homepage-container" >
         <div className="logo-title">
           <img alt="logo" src={logo} />
-          <h1>Welcome to Templepatrick Action Community Association (TACA)</h1>
+          <h1>Templepatrick Action Community Association</h1>
+          <h1>TACA</h1>
         </div>
         <div className='home-info-container'>
-          <div className="welcome-card">
-            <h4>Welcome!</h4>
+          <div className="welcome-card-home">
+            <h4>What&apos;s new?</h4>
             <img alt="big-lunch" src={bigLunch} />
             <p>
           Templepatrick&apos;s Village Celebration sponsored by Antrim and
@@ -26,12 +27,12 @@ function Home() {
             </p>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
-            <p>Zoom call 06/04/21</p>
+            <p>Via Zoom - contact us for dates.</p>
           </div>
-          <div className="homepage-info">
-            <h1>Welcome to TACA</h1>
+          <div className="homepage-info-content">
             <h5>
-        PLEASE COME ALONG TO OUR MEETINGS - NEW MEMBERS MADE VERY WELCOME
+        PLEASE COME ALONG TO OUR MEETINGS</h5>
+            <h5>NEW MEMBERS ARE MADE VERY WELCOME!
             </h5>
             <p>
         Templepatrick Action Community Association (TACA) was established in
@@ -49,6 +50,35 @@ function Home() {
         This is a unique opportunity to improve things in Templepatrick for
         you and your family.
             </p>
+            <div>
+              <h2>Here are some of our previous initiatives...</h2>
+              <div className='past-events'>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>The Big Lunch</p>
+                </div>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>The Christmas Tree Light Up</p>
+                </div>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>The Friendship Circle</p>
+                </div>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>The Toilet Block</p>
+                </div>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>Big Lottery NI Window Box Event</p>
+                </div>
+                <div className='event-card'>
+                  <img src={bigLunch} />
+                  <p>The Big Lunch</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
