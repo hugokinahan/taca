@@ -21,7 +21,7 @@ function Login() {
     try {
       const { data } = await loginUser(formdata)
       setToken(data.token)
-      history.push('/') //page to go to after logging in
+      history.push('/news') //page to go to after logging in
     } catch (err) {
       setError(true)
     }
