@@ -19,9 +19,6 @@ function Nav() {
         <Link to="/history">
           <li>Village History</li>
         </Link>
-        <Link to="/documents">
-          <li>Documents</li>
-        </Link>
         <Link to="/contact">
           <li>Contact Us</li>
         </Link>

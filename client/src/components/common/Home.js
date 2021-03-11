@@ -4,7 +4,9 @@ import Footer from './Footer'
 import Nav from './Nav'
 
 import logo from '../images/taca.jpg'
-import bigLunch from '../images/big-lunch.jpg'
+import bigLunch from '../images/taca-big-lunch.jpg'
+import friendshipCircle from '../images/taca-friendship-circle.jpg'
+import windowBox from '../images/taca-window-box.jpeg'
 
 function Home() {
 
@@ -62,7 +64,7 @@ function Home() {
                   <p>The Christmas Tree Light Up</p>
                 </div>
                 <div className='event-card'>
-                  <img src={bigLunch} />
+                  <img src={friendshipCircle} />
                   <p>The Friendship Circle</p>
                 </div>
                 <div className='event-card'>
@@ -70,7 +72,7 @@ function Home() {
                   <p>The Toilet Block</p>
                 </div>
                 <div className='event-card'>
-                  <img src={bigLunch} />
+                  <img src={windowBox} />
                   <p>Big Lottery NI Window Box Event</p>
                 </div>
                 <div className='event-card'>
