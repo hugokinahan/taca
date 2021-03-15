@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Footer from './Footer'
 import Nav from './Nav'
@@ -41,7 +42,7 @@ function Home() {
         2005 as a direct reaction to the ongoing changes within Templepatrick
         village and the surrounding area. Our aim is to discuss with and
         inform the residents of Templepatrick and the surrounding area,
-        without prejudice, of any issues that we believe may have an impact on
+        without prejudice, about any issues that we believe may have an impact on
         the local community which in turn will promote a greater sense of
         community spirit and awareness.
             </p>
@@ -56,28 +57,44 @@ function Home() {
               <h2>Here are some of our previous initiatives...</h2>
               <div className='past-events'>
                 <div className='event-card'>
-                  <img src={bigLunch} />
-                  <p>The Big Lunch</p>
+                  <Link to='/news/biglunch' >
+                    <img src={bigLunch} />
+                    <p>The Big Lunch</p>
+                  </Link>
                 </div>
                 <div className='event-card'>
-                  <img src={bigLunch} />
-                  <p>The Christmas Tree Light Up</p>
+                  <Link to='/news/christmas'>
+                    <img src={bigLunch} />
+                    <p>The Christmas Tree Light Up</p>
+                  </Link>
                 </div>
                 <div className='event-card'>
-                  <img src={friendshipCircle} />
-                  <p>The Friendship Circle</p>
+                  <Link to='/news/picnicinthepark'>
+                    <img src={bigLunch} />
+                    <p>Picnic In The Park</p>
+                  </Link>
                 </div>
                 <div className='event-card'>
-                  <img src={bigLunch} />
-                  <p>The Toilet Block</p>
+                  <Link to='/news/friendshipcircle' >
+                    <img src={friendshipCircle} />
+                    <p>The Friendship Circle</p>
+                  </Link>
+                </div>
+                <div className='event-card'>
+                  <Link to='/news/toiletblock' >
+                    <img src={bigLunch} />
+                    <p>Wallace Park Toilet Block</p>
+                  </Link>
                 </div>
                 <div className='event-card'>
                   <img src={windowBox} />
                   <p>Big Lottery NI Window Box Event</p>
                 </div>
                 <div className='event-card'>
-                  <img src={bigLunch} />
-                  <p>The Big Lunch</p>
+                  <Link to='/news/togetherfortemplepatrick' >
+                    <img src={bigLunch} />
+                    <p>Together For Templepatrick</p>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -7,6 +7,12 @@ import Home from './components/common/Home'
 import News from './components/common/News'
 import People from './components/common/People'
 import VillageHistory from './components/common/VillageHistory'
+import BigLunch from './components/village_history/BigLunch'
+import Christmas from './components/village_history/Christmas'
+import FriendshipCircle from './components/village_history/FriendshipCircle'
+import PicnicInThePark from './components/village_history/PicnicInThePark'
+import TogetherForTemplepatrick from './components/village_history/TogetherForTemplepatrick'
+import ToiletBlock from './components/village_history/ToiletBlock'
 
 
 function App() {
@@ -14,6 +20,12 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/news/christmas" component={Christmas} />
+        <Route path="/news/friendshipcircle" component={FriendshipCircle} />
+        <Route path="/news/toiletblock" component={ToiletBlock} />
+        <Route path="/news/togetherfortemplepatrick" component={TogetherForTemplepatrick} />
+        <Route path="/news/biglunch" component={BigLunch} />
+        <Route path="/news/picnicinthepark" component={PicnicInThePark} />
         <Route path="/people" component={People} />
         <Route path="/news" component={News} />
         <Route path="/history" component={VillageHistory} />
