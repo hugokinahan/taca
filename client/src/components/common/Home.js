@@ -6,8 +6,11 @@ import Nav from './Nav'
 
 import logo from '../images/taca.jpg'
 import bigLunch from '../images/taca-big-lunch.jpg'
-import friendshipCircle from '../images/taca-friendship-circle.jpg'
+import friendshipCircle from '../images/friendship-circle-benches.jpeg'
 import windowBox from '../images/taca-window-box.jpeg'
+import toiletBlock from '../images/toilet-block.jpeg'
+import christmasTree from '../images/christmas.jpeg'
+import tree from '../images/tree1.jpeg'
 
 function Home() {
 
@@ -23,11 +26,13 @@ function Home() {
         <div className='home-info-container'>
           <div className="welcome-card-home">
             <h4>What&apos;s new?</h4>
-            <img alt="big-lunch" src={bigLunch} />
+            <img alt="tree" src={tree} />
             <p>
-          Templepatrick&apos;s Village Celebration sponsored by Antrim and
-          Newtownabbey Borough Council and the Enkalon Fund!
+              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
             </p>
+            <Link to='/news' >
+              <p>Read more here.</p>
+            </Link>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
@@ -64,7 +69,7 @@ function Home() {
                 </div>
                 <div className='event-card'>
                   <Link to='/news/christmas'>
-                    <img src={bigLunch} />
+                    <img src={christmasTree} />
                     <p>The Christmas Tree Light Up</p>
                   </Link>
                 </div>
@@ -82,7 +87,7 @@ function Home() {
                 </div>
                 <div className='event-card'>
                   <Link to='/news/toiletblock' >
-                    <img src={bigLunch} />
+                    <img src={toiletBlock} />
                     <p>Wallace Park Toilet Block</p>
                   </Link>
                 </div>

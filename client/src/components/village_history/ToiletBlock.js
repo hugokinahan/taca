@@ -3,6 +3,8 @@ import Nav from '../common/Nav'
 import Footer from '../common/Footer'
 
 import bigLunch from '../images/taca-big-lunch.jpg'
+import toiletBlock from '../images/toilet-block.jpeg'
+import toiletPlaque from '../images/toilet-plaque.jpeg'
 
 function ToiletBlock() {
 
@@ -25,6 +27,10 @@ function ToiletBlock() {
           </div>
           <div className="homepage-info">
             <h1>Wallace Park Toilet Block</h1>
+            <div className='info-images'>
+              <img src={toiletBlock} />
+              <img src={toiletPlaque}/>
+            </div>
             <p>
             Back in 2018 TACA applied to the GROW South Antrim fund for funding towards a new toilet block in Wallace Park.  The Council is matched the funding and carried out the contract management.  Needless to say it has been much needed and welcome addition to the park!
             </p>
