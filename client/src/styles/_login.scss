@@ -1,0 +1,31 @@
+.login-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  .login {
+    margin: 0 auto;
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: darkcyan;
+  width: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  .block-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+}

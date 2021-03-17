@@ -1,0 +1,108 @@
+
+.logo-title {
+  width: 75%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+  img {
+    width: 100px;
+    margin: 0 auto;
+  }
+  h1{
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+}
+
+.homepage-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.home-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-card-home {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -200px;
+  img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h4 {
+    background-color: darkcyan;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.welcome-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  h4 {
+    background-color: darkcyan;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.homepage-info {
+  width: 75%;
+  margin-left: 5%;
+}
+
+.homepage-info-content {
+  width: 75%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px auto;
+  a {
+    color: navy;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+  }
+  img {
+    width: 200px;
+    height: 125px;
+  }
+}
+}

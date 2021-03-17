@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5%;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  text-align: center;
+  .email {
+    margin-left: 10px;
+  }
+  .made-by {
+    margin-right: 10px;
+  }
+}

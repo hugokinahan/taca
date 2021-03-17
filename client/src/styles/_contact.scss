@@ -1,0 +1,27 @@
+.message-forms {
+  display: flex;
+  flex-direction: column;
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 250px;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  
+  textarea {
+    padding: 10px;
+  }
+  button {
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+}
