@@ -10,9 +10,9 @@ import bigLunch from '../images/taca-big-lunch.jpg'
 function VillageHistory() {
 
   const [viewport, setViewport] = React.useState({
-    latitude: 52.4816546,
-    longitude: -3.1791934,
-    zoom: 5.3,
+    latitude: 54.703308,
+    longitude: -6.095570,
+    zoom: 14,
   })
 
   return (
