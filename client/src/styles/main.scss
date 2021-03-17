@@ -33,3 +33,17 @@ body {
   border: 1px solid darkcyan;
   margin-left: 5%;
 }
+
+.people-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  p {
+    margin: 10px;
+  }
+}
+
+.icon {
+  font-size: 50px;
+  color: #196ed8;
+}

@@ -1,9 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Nav from './Nav'
 
-
-import bigLunch from '../images/taca-big-lunch.jpg'
 import tree from '../images/tree1.jpeg'
 import plantingTree from '../images/planting-tree.jpeg'
 import group from '../images/group-table.jpeg'
@@ -18,15 +17,17 @@ function News() {
         <div className='home-info-container'>
           <div className="welcome-card">
             <h4>What&apos;s new?</h4>
-            <img alt="big-lunch" src={bigLunch} />
+            <img alt="tree" src={tree} />
             <p>
-          Templepatrick&apos;s Village Celebration sponsored by Antrim and
-          Newtownabbey Borough Council and the Enkalon Fund!
+              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
             </p>
+            <Link to='/news' >
+              <p>Read more here.</p>
+            </Link>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
-          </div>
+          </div> 
           <div className="homepage-info">
             <h1>News</h1>
             <h5>March 2021</h5>

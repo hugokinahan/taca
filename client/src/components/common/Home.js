@@ -11,6 +11,7 @@ import windowBox from '../images/taca-window-box.jpeg'
 import toiletBlock from '../images/toilet-block.jpeg'
 import christmasTree from '../images/christmas.jpeg'
 import tree from '../images/tree1.jpeg'
+import picnicinpark from '../images/picnicinpark.jpeg'
 
 function Home() {
 
@@ -75,7 +76,7 @@ function Home() {
                 </div>
                 <div className='event-card'>
                   <Link to='/news/picnicinthepark'>
-                    <img src={bigLunch} />
+                    <img src={picnicinpark} />
                     <p>Picnic In The Park</p>
                   </Link>
                 </div>
