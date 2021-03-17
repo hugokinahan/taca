@@ -150,6 +150,13 @@ li:hover {
     flex-direction: column;
     width: 200px;
     margin: 10px auto;
+  a {
+    color: navy;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+  }
   img {
     width: 200px;
     height: 125px;
