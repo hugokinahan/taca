@@ -1,8 +1,11 @@
 import React from 'react'
 import Nav from '../common/Nav'
 import Footer from '../common/Footer'
+import { Link } from 'react-router-dom'
 
-import bigLunch from '../images/taca-big-lunch.jpg'
+import tree from '../images/tree1.jpeg'
+import picnic1 from '../images/picnicinpark.jpeg'
+import picnic2 from '../images/picnic.jpeg'
 
 function PicnicInThePark() {
 
@@ -14,17 +17,23 @@ function PicnicInThePark() {
         <div className='home-info-container'>
           <div className="welcome-card">
             <h4>What&apos;s new?</h4>
-            <img alt="big-lunch" src={bigLunch} />
+            <img alt="tree" src={tree} />
             <p>
-          Templepatrick&apos;s Village Celebration sponsored by Antrim and
-          Newtownabbey Borough Council and the Enkalon Fund!
+              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
             </p>
+            <Link to='/news' >
+              <p>Read more here.</p>
+            </Link>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
           </div>
           <div className="homepage-info">
             <h1>Picnic In The Park</h1>
+            <div className='info-images'>
+              <img src={picnic1} />
+              <img src={picnic2}/>
+            </div>
             <p>
             Wallace Park hosted its very own Picnic in the Park in June of 2019.  There was fun for all - games, music, bouncy castles, facepainting, crafts - and hot food and drink stalls. </p>
             <p>

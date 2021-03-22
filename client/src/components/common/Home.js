@@ -93,8 +93,10 @@ function Home() {
                   </Link>
                 </div>
                 <div className='event-card'>
-                  <img src={windowBox} />
-                  <p>Big Lottery NI Window Box Event</p>
+                  <Link to='/news/windowbox' >
+                    <img src={windowBox} />
+                    <p>Big Lottery NI Window Box Event</p>
+                  </Link>
                 </div>
                 <div className='event-card'>
                   <Link to='/news/togetherfortemplepatrick' >

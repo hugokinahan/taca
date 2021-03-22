@@ -1,14 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Nav from '../common/Nav'
 import Footer from '../common/Footer'
-import { Link } from 'react-router-dom'
 
 import tree from '../images/tree1.jpeg'
-import toiletBlock from '../images/toilet-block.jpeg'
-import toiletPlaque from '../images/toilet-plaque.jpeg'
+import WindowBox1 from '../images/taca-window-box-2.jpg'
+import WindowBox2 from '../images/taca-window-box.jpeg'
 
-function ToiletBlock() {
-
+function News() {
 
   return (
     <section>
@@ -27,22 +26,32 @@ function ToiletBlock() {
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
-          </div>
+          </div> 
           <div className="homepage-info">
-            <h1>Wallace Park Toilet Block</h1>
+            <h1>Big Lottery NI Window Box Event</h1>
             <div className='info-images'>
-              <img src={toiletBlock} />
-              <img src={toiletPlaque}/>
+              <img src={WindowBox1} />
+              <img src={WindowBox2}/>
             </div>
             <p>
-            Back in 2018 TACA applied to the GROW South Antrim fund for funding towards a new toilet block in Wallace Park.  The Council is matched the funding and carried out the contract management.  Needless to say it has been much needed and welcome addition to the park!
+            Thanks to Coleman’s Garden Centre (and its fabulously helpful staff) for hosting Templepatrick Goes Green. 
+            </p>
+            <p>
+            This event was funded by the Big Lottery NI and we thank them for their generosity. 
+            </p>
+            <p>
+            Special thanks also to Mary Hamilton, Green Gym Project Officer, The Conservation Volunteers who showed us how to change our plastic bottles into decorations for our boxes. 
+            </p>
+            <p>
+            This is just one of many joint TACA/Colemans events organised over the past few years and we look forward to many more!
             </p>
           </div>
         </div>
       </div>
       <Footer />
     </section>
+  
   )
 }
 
-export default ToiletBlock
+export default News

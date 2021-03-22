@@ -13,6 +13,7 @@ import FriendshipCircle from './components/village_history/FriendshipCircle'
 import PicnicInThePark from './components/village_history/PicnicInThePark'
 import TogetherForTemplepatrick from './components/village_history/TogetherForTemplepatrick'
 import ToiletBlock from './components/village_history/ToiletBlock'
+import WindowBox from './components/village_history/WindowBox'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/news/togetherfortemplepatrick" component={TogetherForTemplepatrick} />
         <Route path="/news/biglunch" component={BigLunch} />
         <Route path="/news/picnicinthepark" component={PicnicInThePark} />
+        <Route path="/news/windowbox" component={WindowBox} />
         <Route path="/people" component={People} />
         <Route path="/news" component={News} />
         <Route path="/history" component={VillageHistory} />

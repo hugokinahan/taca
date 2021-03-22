@@ -1,8 +1,14 @@
 import React from 'react'
 import Nav from '../common/Nav'
 import Footer from '../common/Footer'
+import { Link } from 'react-router-dom'
 
-import bigLunch from '../images/taca-big-lunch.jpg'
+import tree from '../images/tree1.jpeg'
+import friendshipCircle1 from '../images/friendshipCircle.jpeg'
+import friendshipCircle2 from '../images/taca-friendship-circle.jpg'
+import friendshipCircle3 from '../images/friendship-circle-benches.jpeg'
+
+
 
 function FriendshipCircle() {
 
@@ -14,17 +20,24 @@ function FriendshipCircle() {
         <div className='home-info-container'>
           <div className="welcome-card">
             <h4>What&apos;s new?</h4>
-            <img alt="big-lunch" src={bigLunch} />
+            <img alt="tree" src={tree} />
             <p>
-          Templepatrick&apos;s Village Celebration sponsored by Antrim and
-          Newtownabbey Borough Council and the Enkalon Fund!
+              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
             </p>
+            <Link to='/news' >
+              <p>Read more here.</p>
+            </Link>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
           </div>
           <div className="homepage-info">
             <h1>The Friendship Circle</h1>
+            <div className='info-images'>
+              <img src={friendshipCircle1} />
+              <img src={friendshipCircle2}/>
+              <img src={friendshipCircle3}/>
+            </div>
             <p>
             Have you seen the Friendship Circle in Wallace Park.  An iconic legacy project finalised in 2019 made possible through Live Here Love Here &apos;Artist in Residence Programme&apos; and the European Union&apos;s PEACE IV Programme, managed by the Special EU Programmes Body (SEUPB).
             </p>

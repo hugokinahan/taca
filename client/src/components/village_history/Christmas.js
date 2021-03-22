@@ -1,8 +1,11 @@
 import React from 'react'
 import Nav from '../common/Nav'
 import Footer from '../common/Footer'
+import { Link } from 'react-router-dom'
 
-import bigLunch from '../images/taca-big-lunch.jpg'
+import tree from '../images/tree1.jpeg'
+import christmas1 from '../images/christmas.jpeg'
+import christmas2 from '../images/christmas-trees.jpeg'
 
 function Christmas() {
 
@@ -14,17 +17,23 @@ function Christmas() {
         <div className='home-info-container'>
           <div className="welcome-card">
             <h4>What&apos;s new?</h4>
-            <img alt="big-lunch" src={bigLunch} />
+            <img alt="tree" src={tree} />
             <p>
-          Templepatrick&apos;s Village Celebration sponsored by Antrim and
-          Newtownabbey Borough Council and the Enkalon Fund!
+              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
             </p>
+            <Link to='/news' >
+              <p>Read more here.</p>
+            </Link>
             <h4>Dates To Note</h4>
             <h6>Next Meeting</h6>
             <p>Via Zoom - contact us for dates.</p>
           </div>
           <div className="homepage-info">
             <h1>Christmas Tree Lights</h1>
+            <div className='info-images'>
+              <img src={christmas1} />
+              <img src={christmas2}/>
+            </div>
             <p>
             Templepatrick’s Christmas light up has been organised by TACA for many years now.  In 2018 - when the Council could no longer privide our tree - we sourced and planted our own at the Twelfth Milestone with kind permission of Spar.  So now we can use and decorate the same tree, as it grows older and ever taller ...
             </p>
