@@ -1,18 +1,18 @@
 import React from 'react'
-import { Link, useLocation, useHistory } from 'react-router-dom'
-import { isAuthenticated, logout } from '../../lib/auth'
+import { Link } from 'react-router-dom'
+// import { isAuthenticated, logout } from '../../lib/auth'
 
 function Nav() {
   
-  useLocation()
-  const isLoggedIn = isAuthenticated()
-  const history = useHistory()
+  // useLocation()
+  // const isLoggedIn = isAuthenticated()
+  // const history = useHistory()
 
-  const handleLogout = () => {
-    logout()
-    history.push('/') // logs out & returns user to homepage
+  // const handleLogout = () => {
+  //   logout()
+  //   history.push('/') // logs out & returns user to homepage
 
-  }
+  // }
 
 
   return (
@@ -33,13 +33,13 @@ function Nav() {
         <Link to="/contact">
           <li>Contact Us</li>
         </Link>
-        {!isLoggedIn ? 
+        {/* {!isLoggedIn ? 
           <Link to="/login">
             <li>Admin Login</li>
           </Link>
           :
           <li onClick={handleLogout}>Logout</li>
-        }
+        } */}
       </ul>
     </nav>
   )

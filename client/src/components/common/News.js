@@ -7,6 +7,7 @@ import tree from '../images/tree1.jpeg'
 import plantingTree from '../images/planting-tree.jpeg'
 import group from '../images/group-table.jpeg'
 import laptops from '../images/laptops.jpeg'
+import bill from '../images/bill.jpeg'
 
 function News() {
 
@@ -43,6 +44,7 @@ function News() {
               <img src={plantingTree} />
               <img src={tree} />
               <img src={group} />
+              <img src={bill} />
             </div>
             <p>
             We were honoured to plant a tree in memory of our Vice Chairman Bill McAvoy who passed away last October. Bill was a very popular and valued member of our community. Always the voice of reason bringing you back to earth with an honest opinion. Our “go to” person when we needed someone to be our Master of Ceremonies or to provide an interview. We miss him sorely and thank you to his lovely wife Rosie for allowing us to remember him in this way.  In the photos you will see Rosie standing by the Liquid Amber tree which will produce glorious colour and in the other photo taken at Colemans, Bill is front right helping us plan the Big Picnic!!

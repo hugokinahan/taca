@@ -63,6 +63,7 @@ function Contact() {
           </div> 
           <div className="homepage-info">
             <h1>Contact Us</h1>
+            <hr></hr>
             <h3>Send us a message</h3>
             <p>If you have any queries or questions please don&apos;t hestitate to send us an email.</p>
             <a href='mailto:tacatalk@yahoo.co.uk' > <p>tacatalk@yahoo.co.uk</p>
@@ -70,10 +71,14 @@ function Contact() {
             <a href='mailto:tacatalk@yahoo.co.uk' >
               <button>Send Email</button>
             </a>
-            <h3>Like and follow TACA on Facebook</h3>
-            <a href="https://www.facebook.com/TACATEMPLEPATRICK/?ref=page_internal" >
-              <FaFacebook className="icon" />
-            </a>
+            <br></br>
+            <hr></hr>
+            <div>
+              <h3>Like and follow TACA on Facebook</h3>
+              <a href="https://www.facebook.com/TACATEMPLEPATRICK/?ref=page_internal" >
+                <FaFacebook className="icon" />
+              </a>
+            </div>
             {/* <div className='message-forms'>
               <form action="mailto:youraddr@domain.tld" method="GET">
                 <div className='form-section'>

@@ -41,9 +41,20 @@ body {
   p {
     margin: 10px;
   }
+  img {
+    width: 150px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 20%;
+  }
 }
 
 .icon {
   font-size: 50px;
   color: #196ed8;
+}
+
+.vertical-groups {
+  display: flex;
+  flex-direction: column;
 }

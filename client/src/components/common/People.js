@@ -5,6 +5,9 @@ import Nav from './Nav'
 
 
 import tree from '../images/tree1.jpeg'
+import ellie from '../images/ellie.jpg'
+import donna from '../images/donna.jpeg'
+import caroline from '../images/caroline.jpeg'
 
 function People() {
 
@@ -30,23 +33,39 @@ function People() {
             <h1>Committee Members</h1>
             <div className='people-grid'>
               <p>Chairperson: Billy Cathcart</p>
-              <p>Deputy Chair: Donna Johnson</p>
-              <p>Treasurer: Caroline Douglas</p>
-              <p>Secretary: Ellie Francis</p>
-              {/* <p>Head of Communication: D Johnston</p>
+              <div>
+                <p>Deputy Chair: Donna Johnson</p>
+                <img src={donna} />
+              </div>
+              <div>
+                <p>Treasurer: Caroline Douglas</p>
+                <img src={caroline} />
+              </div>
+              <div>
+                <p>Secretary: Ellie Francis</p>
+                <img src={ellie} />
+              </div>
+            </div>
+            {/* <p>Head of Communication: D Johnston</p>
             <p>Press Secretary: C Michael</p> */}
+            <div className='vertical-groups'>
               <p>Anna Kinahan</p>
               <p>Trevor Michael</p>
               <p>Caroline Michael</p>
               <p>James Clarke</p>
               <p>Lynsay Allen</p>
+              <p>Jay Burbank</p>
+              <p>Alan McClintok</p>
+              <div className='support'>
+                <h5>Supported by</h5>
+                <p>Pam Cameron (MLA)</p>
+                <p>Cllr Matthew Magill</p>
+                <p>Paul Girvan</p>
+                <p>Danny Kinahan</p>
+              </div>
             </div>
-            <h5>Supported by</h5>
-            <div className='people-grid'>
-              <p>Pam Cameron (MLA)</p>
-              <p>Cllr Matthew Magill</p>
-              <p>Paul Girvan</p>
-              <p>Danny Kinahan</p>
+            <div>
+              <h5>TACA Constitution</h5>
               <p>
                 <a href="http://btckstorage.blob.core.windows.net/site7025/Constitution%20May%202016%20[5128397].pdf">
                   TACA Constitution
