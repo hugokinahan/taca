@@ -38,6 +38,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
   p {
     margin: 10px;
   }
@@ -45,7 +46,6 @@ body {
     width: 150px;
     height: 200px;
     border-radius: 100px;
-    margin-left: 20%;
   }
 }
 
@@ -55,6 +55,9 @@ body {
 }
 
 .vertical-groups {
+  text-align: center;
+  height: 250px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }

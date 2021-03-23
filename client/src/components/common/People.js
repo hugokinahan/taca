@@ -51,11 +51,12 @@ function People() {
             <div className='vertical-groups'>
               <p>Anna Kinahan</p>
               <p>Trevor Michael</p>
-              <p>Caroline Michael</p>
+              <p>Catherine Michael</p>
+              <p>Diane Audley</p>
               <p>James Clarke</p>
-              <p>Lynsay Allen</p>
+              <p>Lynsey Allen</p>
               <p>Jay Burbank</p>
-              <p>Alan McClintok</p>
+              <p>Eleanor Martin</p>
               <div className='support'>
                 <h5>Supported by</h5>
                 <p>Pam Cameron (MLA)</p>
