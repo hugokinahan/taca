@@ -8,6 +8,7 @@ import tree from '../images/tree1.jpeg'
 import ellie from '../images/ellie.jpg'
 import donna from '../images/donna.jpeg'
 import caroline from '../images/caroline.jpeg'
+import billy from '../images/billy.jpeg'
 
 function People() {
 
@@ -32,7 +33,10 @@ function People() {
           <div className="homepage-info">
             <h1>Committee Members</h1>
             <div className='people-grid'>
-              <p>Chairperson: Billy Cathcart</p>
+              <div>
+                <p>Chairperson: Billy Cathcart</p>
+                <img src={billy} />
+              </div>
               <div>
                 <p>Deputy Chair: Donna Johnson</p>
                 <img src={donna} />
