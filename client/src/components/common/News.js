@@ -30,7 +30,7 @@ function News() {
             <p>Via Zoom - contact us for dates.</p>
           </div> 
           <div className="homepage-info">
-            <h1>News</h1>
+            <h1 className='headers'>News</h1>
             <h5>March 2021</h5>
             <div className='info-images' >
               <img src={laptops} />
