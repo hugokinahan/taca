@@ -14,7 +14,8 @@
   }
 
   .navbar {
-    height: 5%;
+    height: 6%;
+    text-align: center;
   }
   
   .navbar-items {
@@ -22,7 +23,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-right: 10%;
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .logo-title {
@@ -45,7 +46,6 @@
 
   .homepage-info {
     h1 {
-      width: 100%;
       margin-left: 20%;
       margin-top: 50px;
     }
@@ -56,8 +56,7 @@
   }
 
   .people-grid {
-    width: 100%;
-    margin-left: 33%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,11 +66,13 @@
 
   .vertical-groups {
     margin-left: 10%;
+    width: 75%;
   }
 
   #root > section > div > div > div.homepage-info > h1 {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25%;
+    margin-bottom: 40px;
   }
 
   .map-container {
@@ -87,7 +88,19 @@
     flex-direction: row;
     justify-content: space-evenly;
     height: 5%;
-    font-size: 10px;
+    font-size: 8px;
+    .kualo {
+      font-size: 5px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
+    .made-by {
+      font-size: 5px;
+      margin-top: 10px;
+    }
+    .email {
+      font-size: 12px;
+    }
   }
 
 
