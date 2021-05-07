@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Nav from './Nav'
 
-import ReactMapGL from 'react-map-gl'
+// import ReactMapGL from 'react-map-gl'
 
 
 import tree from '../images/tree1.jpeg'
 
 function VillageHistory() {
 
-  const [viewport, setViewport] = React.useState({
-    latitude: 54.703308,
-    longitude: -6.095570,
-    zoom: 14,
-  })
+  // const [viewport, setViewport] = React.useState({
+  //   latitude: 54.703308,
+  //   longitude: -6.095570,
+  //   zoom: 14,
+  // })
 
   return (
     <section>
@@ -36,7 +36,7 @@ function VillageHistory() {
           </div> 
           <div className="homepage-info">
             <h1>Village History</h1>
-            <div className="map-container">
+            {/* <div className="map-container">
               <ReactMapGL
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
                 height="100%"
@@ -45,7 +45,8 @@ function VillageHistory() {
                 {...viewport}
                 onViewportChange={(viewport) => setViewport(viewport)}
               ></ReactMapGL>
-            </div>
+            </div> */}
+            <h2> 🏗 👷‍♀️ SORRY - PAGE UNDER CONSTRUCTION 👷‍♂️ ⛏</h2>
           </div>
         </div>
       </div>
