@@ -58,7 +58,6 @@ function People() {
               <p>Catherine Michael</p>
               <p>Diane Audley</p>
               <p>James Clarke</p>
-              <p>Lynsey Allen</p>
               <p>Jay Burbank</p>
               <p>Eleanor Martin</p>
               <div className='support'>
