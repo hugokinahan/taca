@@ -78,7 +78,14 @@ function VillageHistory() {
                 {showCastleText ? <CastleUpton /> : null}
                 {showOrangeHallText ? <OrangeHall /> : null}
               </div> */}
+              <h5>Click on the landmarks below annd scroll down to read about their history 👇</h5>
+              <div className='popup-text' >
+                {showCastleText ? <CastleUpton /> : null}
+                {showOrangeHallText ? <OrangeHall /> : null}
+                {showMausoleumText ? <Mausoleum /> : null}
+              </div>
               <ul className='history-list'>
+                
                 <div >
                   <li onClick={handleOrangeHallToggle}><button className='number-list' onClick={handleOrangeHallToggle}>1</button> Orange Hall</li>
 
@@ -102,11 +109,11 @@ function VillageHistory() {
                 <li><button className='number-list'>13</button> Railway Station (private)</li>
                 <li><button className='number-list'>14</button> Parish Hall</li>
               </ul>
-              <div className='popup-text' >
+              {/* <div className='popup-text' >
                 {showCastleText ? <CastleUpton /> : null}
                 {showOrangeHallText ? <OrangeHall /> : null}
                 {showMausoleumText ? <Mausoleum /> : null}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
