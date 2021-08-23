@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Nav from './Nav'
-import Illustration from '../images/illustration.jpg'
+import Illustration from '../images/tp-map.jpg'
 import OrangeHall from './history/OrangeHall'
 import CastleUpton from './history/CastleUpton'
 import Mausoleum from './history/Mausoleum'
@@ -83,9 +83,9 @@ function VillageHistory() {
                 <li><button className='number-list'>14</button> Parish Hall</li>
               </ul>
               <div className='popup-text' >
-                {showCastleText ? <CastleUpton /> : null}
-                {showOrangeHallText ? <OrangeHall /> : null}
-                {showMausoleumText ? <Mausoleum /> : null}
+                {showCastleText ? <CastleUpton /> : null || showOrangeHallText ? <OrangeHall /> : null || showMausoleumText ? <Mausoleum /> : null}
+                {/* {showOrangeHallText ? <OrangeHall /> : null}
+                {showMausoleumText ? <Mausoleum /> : null} */}
               </div>
             </div>
           </div>
