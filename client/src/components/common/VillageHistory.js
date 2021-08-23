@@ -7,18 +7,9 @@ import OrangeHall from './history/OrangeHall'
 import CastleUpton from './history/CastleUpton'
 import Mausoleum from './history/Mausoleum'
 
-// import ReactMapGL from 'react-map-gl'
-
-
 import tree from '../images/tree1.jpeg'
 
 function VillageHistory() {
-
-  // const [viewport, setViewport] = React.useState({
-  //   latitude: 54.703308,
-  //   longitude: -6.095570,
-  //   zoom: 14,
-  // })
 
   // ! ORANGE HALL
   const [showOrangeHallText, setShowOrangeHallText] = React.useState(false)
@@ -62,28 +53,10 @@ function VillageHistory() {
               <img src={Illustration}/>
             </div>
             
-            {/* <div className="map-container">
-              <ReactMapGL
-                mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-                height="100%"
-                width="100%"
-                mapStyle="mapbox://styles/mapbox/satellite-v9"
-                {...viewport}
-                onViewportChange={(viewport) => setViewport(viewport)}
-              ></ReactMapGL>
-            </div> */}
+
             {/* <h2> 🏗 👷‍♀️ SORRY - PAGE UNDER CONSTRUCTION 👷‍♂️ ⛏</h2> */}
             <div id='myDiv'>
-              {/* <div className='popup-text'>
-                {showCastleText ? <CastleUpton /> : null}
-                {showOrangeHallText ? <OrangeHall /> : null}
-              </div> */}
-              <h5>Click on the landmarks below annd scroll down to read about their history 👇</h5>
-              <div className='popup-text' >
-                {showCastleText ? <CastleUpton /> : null}
-                {showOrangeHallText ? <OrangeHall /> : null}
-                {showMausoleumText ? <Mausoleum /> : null}
-              </div>
+              <h5>Click on the landmarks below and scroll down to read about their history 👇</h5>
               <ul className='history-list'>
                 
                 <div >
@@ -109,11 +82,11 @@ function VillageHistory() {
                 <li><button className='number-list'>13</button> Railway Station (private)</li>
                 <li><button className='number-list'>14</button> Parish Hall</li>
               </ul>
-              {/* <div className='popup-text' >
+              <div className='popup-text' >
                 {showCastleText ? <CastleUpton /> : null}
                 {showOrangeHallText ? <OrangeHall /> : null}
                 {showMausoleumText ? <Mausoleum /> : null}
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
