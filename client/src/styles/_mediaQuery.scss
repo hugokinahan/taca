@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) and (min-width: 300px) {
+@media only screen and (max-width: 700px) and (min-width: 300px) {
   /* For mobile phones: */
 
   * {
@@ -103,5 +103,10 @@
     }
   }
 
-
+  .illustration-container {
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 15%;
+}
 }

@@ -4,7 +4,7 @@ function StPatricks() {
 
   return (
     <div>
-      <h1>St. Patrick&apos; Church Of Ireland</h1>
+      <h1>St. Patrick&apos; Church Of Ireland Parish Church</h1>
       <hr></hr>
       <p>The church was built in 1827 to a simple ‘hall and tower’ plan with harled walls in the Ulster-Scots manner and in an architectural style known as ‘First Fruits Gothic’. This design is typical of churches built across Ireland during the period 1808-1829, under the influence of an evangelical movement with the Church of Ireland, and with financial assistance from the government following the Act of Union. 
       </p>
