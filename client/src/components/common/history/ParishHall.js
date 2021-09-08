@@ -6,6 +6,11 @@ function ParishHall() {
     <div>
       <h1>Parish Hall / Old School House</h1>
       <hr></hr>
+      <h4>The Parish Hall, The Early Years</h4>
+      <p>The current Parish Hall was originally built in 1836 by Lord Templetown for the local Presbyterian congregation who had been worshipping in a barn at Kirkhill on the Kilmakee Road from 1831. Up until then, the Presbyterian congregation had worshipped in the Old Presbyterian Church on the main road through the village, but after a dispute over whether or not to subscribe to the Westminister Confession of Faith, a split occurred in the congregation. The majority, who believed in subscription left with the non-subscribers remaining in and retaining the Church building. </p>
+      <p>Lord Templetown, noting the plight of the congregation and the unfavourable conditions under which they worshipped in the barn, kindly stepped in to provide the new Church building. The congregation spent eight happy years in their new Church until a dispute arose, the genesis of which is unclear, which resulted in Lord Templetown having the congregation evicted in September 1844. 
+      </p>
+      <h4>The School Years</h4>
       <p>Until 1970 the building which is now the Parish Hall (at the junction of Lylehill Road and Old Coach Road) was used as a school house for primary-school aged children.
       </p>
       <p>In the late 1960s the school consisted of three classes (one infant – for children aged 4 to 7, two junior – for children aged 8 to 11), two teachers (Mrs Nicholl and Mrs Foster), one headmaster (Mr Seymour) and about 18 children. 
