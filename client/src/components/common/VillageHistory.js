@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Nav from './Nav'
-import Illustration from '../images/tp-map-finished.jpg'
+import Illustration from '../images/illustration.jpg'
 import OrangeHall from './history/OrangeHall'
 import CastleUpton from './history/CastleUpton'
 import Mausoleum from './history/Mausoleum'
@@ -89,6 +89,11 @@ function VillageHistory() {
                       </button> War Memorial Orange Hall
                     </li>
                   </div>
+                  <div className="popup-text" style={{ display: showOrangeHallText ? 'flex' : 'none' }}>
+                    {showOrangeHallText ? (
+                      <OrangeHall />
+                    ) : null}
+                  </div>
                   <div>
                     <li onClick={handleMausoleumToggle}>
                       <button
@@ -98,6 +103,11 @@ function VillageHistory() {
                         2
                       </button> Templetown Mausoleum
                     </li>
+                  </div>
+                  <div className="popup-text" style={{ display: showMausoleumText ? 'flex' : 'none' }}>
+                    {showMausoleumText ? (
+                      <Mausoleum />
+                    ) : null}
                   </div>
                   <li>
                     <button className="number-list">3</button> Adam Yard
@@ -113,6 +123,11 @@ function VillageHistory() {
                       </button> Castle Upton (private)
                     </li>
                   </div>
+                  <div className="popup-text" style={{ display: showCastleText ? 'flex' : 'none' }}>
+                    {showCastleText ? (
+                      <CastleUpton />
+                    ) : null}
+                  </div>
                   <div>
                     <li onClick={handlePresbyterianChurchToggle}>
                       <button
@@ -122,6 +137,11 @@ function VillageHistory() {
                         5
                       </button> Old Presbyterian Church (Non-Subscribing)
                     </li>
+                  </div>
+                  <div className="popup-text" style={{ display: showPresbyterianChurchText ? 'flex' : 'none' }}>
+                    {showPresbyterianChurchText ? (
+                      <PresbyterianChurch />
+                    ) : null}
                   </div>
                   <li>
                     <button className="number-list">6</button> Former RUC
@@ -141,6 +161,11 @@ function VillageHistory() {
                       </button> St Patrick&apos;s Church of Ireland Parish Church
                     </li>
                   </div>
+                  <div className="popup-text" style={{ display: showStPatricksText ? 'flex' : 'none' }}>
+                    {showStPatricksText ? (
+                      <StPatricks />
+                    ) : null}
+                  </div>
                   <div>
                     <li onClick={handleMasonicHallToggle}>
                       <button
@@ -150,6 +175,11 @@ function VillageHistory() {
                         9
                       </button> Masonic Hall
                     </li>
+                  </div>
+                  <div className="popup-text" style={{ display: showMasonicHallText ? 'flex' : 'none' }}>
+                    {showMasonicHallText ? (
+                      <MasonicHall />
+                    ) : null}
                   </div>
                   <li>
                     <button className="number-list">10</button> Former Royal
@@ -165,6 +195,11 @@ function VillageHistory() {
                       </button> Former Railway Station
                     </li>
                   </div>
+                  <div className="popup-text" style={{ display: showRailwayStationText ? 'flex' : 'none' }}>
+                    {showRailwayStationText ? (
+                      <RailwayStation />
+                    ) : null}
+                  </div>
                   <div>
                     <li onClick={handleParishHallToggle}>
                       <button
@@ -175,29 +210,13 @@ function VillageHistory() {
                       </button> Parish Hall / Old School House
                     </li>
                   </div>
+                  <div className="popup-text" style={{ display: showParishHallText ? 'flex' : 'none' }}>
+                    {showParishHallText ? (
+                      <ParishHall />
+                    ) : null}
+                  </div>
                 </ul>
               </div>
-            </div>
-            <div className="popup-text">
-              {showParishHallText ? (
-                <ParishHall />
-              ) : null || showRailwayStationText ? (
-                <RailwayStation />
-              ) : null || showMasonicHallText ? (
-                <MasonicHall />
-              ) : null || showStPatricksText ? (
-                <StPatricks />
-              ) : null || showPresbyterianChurchText ? (
-                <PresbyterianChurch />
-              ) : null || showCastleText ? (
-                <CastleUpton />
-              ) : null || showOrangeHallText ? (
-                <OrangeHall />
-              ) : null || showMausoleumText ? (
-                <Mausoleum />
-              ) : null}
-              {/* {showOrangeHallText ? <OrangeHall /> : null}
-                {showMausoleumText ? <Mausoleum /> : null} */}
             </div>
           </div>
         </div>
