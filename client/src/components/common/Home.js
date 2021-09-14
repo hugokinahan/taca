@@ -10,7 +10,7 @@ import friendshipCircle from '../images/friendship-circle-benches.jpeg'
 import windowBox from '../images/taca-window-box.jpeg'
 import toiletBlock from '../images/toilet-block.jpeg'
 import christmasTree from '../images/christmas.jpeg'
-import tree from '../images/tree1.jpeg'
+import illustration from '../images/illustration.jpg'
 import picnicinpark from '../images/picnicinpark.jpeg'
 
 function Home() {
@@ -27,11 +27,11 @@ function Home() {
         <div className='home-info-container'>
           <div className="welcome-card-home">
             <h4>What&apos;s new?</h4>
-            <img alt="tree" src={tree} />
+            <img alt='map' src={illustration} />
             <p>
-              We were recently honoured to plant a tree in memory of our Vice-Chairman, Bill McAvoy, who passed away last October. He was a very popular and valued member of our community. 
+              Check out the new &apos;village history&apos; section of the website compiled with the invaluable assistance of the Templepatrick Historical Society. 
             </p>
-            <Link to='/news' >
+            <Link to='/history' >
               <p>Read more here.</p>
             </Link>
             <h4>Dates To Note</h4>

@@ -4,7 +4,7 @@ function ParishHall() {
 
   return (
     <div>
-      <h1>Parish Hall / Old School House</h1>
+      <h1>Parish Hall</h1>
       <hr></hr>
       <h4>The Parish Hall, The Early Years</h4>
       <p>The current Parish Hall was originally built in 1836 by Lord Templetown for the local Presbyterian congregation who had been worshipping in a barn at Kirkhill on the Kilmakee Road from 1831. Up until then, the Presbyterian congregation had worshipped in the Old Presbyterian Church on the main road through the village, but after a dispute over whether or not to subscribe to the Westminister Confession of Faith, a split occurred in the congregation. The majority, who believed in subscription left with the non-subscribers remaining in and retaining the Church building. </p>

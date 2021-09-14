@@ -207,7 +207,7 @@ function VillageHistory() {
                         onClick={handleParishHallToggle}
                       >
                         12
-                      </button> Parish Hall / Old School House
+                      </button> Parish Hall
                     </li>
                   </div>
                   <div className="popup-text" style={{ display: showParishHallText ? 'flex' : 'none' }}>
