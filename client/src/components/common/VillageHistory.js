@@ -86,7 +86,7 @@ function VillageHistory() {
                         onClick={handleOrangeHallToggle}
                       >
                         1
-                      </button> War Memorial Orange Hall
+                      </button> Templepatrick War Memorial Orange Hall
                     </li>
                   </div>
                   <div className="popup-text" style={{ display: showOrangeHallText ? 'flex' : 'none' }}>
