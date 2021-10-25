@@ -5,7 +5,7 @@ import Nav from './Nav'
 
 import ellie from '../images/ellie.jpg'
 import donna from '../images/donna.jpeg'
-import caroline from '../images/caroline.jpeg'
+import caroline from '../images/Caroline-Douglas.jpg'
 import billy from '../images/billy.jpeg'
 
 function People() {

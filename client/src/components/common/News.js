@@ -7,6 +7,14 @@ import plantingTree from '../images/planting-tree.jpeg'
 import group from '../images/group-table.jpeg'
 import laptops from '../images/laptops.jpeg'
 import bill from '../images/bill.jpeg'
+import walkingTourOne from '../images/walking-adam-yard-1.jpeg'
+import walkingTourTwo from '../images/walking-adam-yard.jpeg'
+import walkingTourThree from '../images/walking-castle-upton.jpeg'
+import walkingTourFour from '../images/walking-tour-1.jpeg'
+import walkingTourFive from '../images/walking-tour-two.jpeg'
+import walkingTourSix from '../images/walking-tour.jpeg'
+import walkingTourSeven from '../images/mausoleum-tour.jpeg'
+import walkingTourEight from '../images/mausoleum-tour-1.jpeg'
 
 function News() {
 
@@ -17,7 +25,21 @@ function News() {
         <div className='home-info-container'>
           <div className="homepage-info">
             <h1 className='headers'>News</h1>
-            <h5>March 2021</h5>
+            <h2>October 2021</h2>
+            <div className='info-images' >
+              <img src={walkingTourOne} />
+              <img src={walkingTourTwo} />
+              <img src={walkingTourThree} />
+              <img src={walkingTourFour} />
+              <img src={walkingTourFive} />
+              <img src={walkingTourSix} />
+              <img src={walkingTourSeven} />
+              <img src={walkingTourEight} />
+            </div>
+            <p>
+            In partnership with Templepatrick and District Historical Society and sponsored by Antrim and Newtownabbey Borough we held our first of two historical walking tours today finished off by snacks and tea courtesy of The Rabbit Hotel.
+            </p>
+            <h2>March 2021</h2>
             <div className='info-images' >
               <img src={laptops} />
             </div>
@@ -25,7 +47,7 @@ function News() {
             First batch of donated laptops ready to be collected by “Refreshed by Us”. This will go to children in our community who don’t have access to a laptop or any of the current government schemes. If you have a laptop to donate please fill in this form
             </p>
             <p><a href='https://forms.gle/TEngDzJa68AZzMwY8'>Click here to fill in form to donate a laptop</a></p>
-            <h5>February 2021</h5>
+            <h2>February 2021</h2>
             <div className='info-images' >
               <img src={plantingTree} />
               <img src={tree} />
